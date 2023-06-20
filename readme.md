@@ -7,7 +7,7 @@ This python file converts the .TXT file (ex: gl2022.txt) to the exact same name 
 - Setup your files so they match. You can edit in the convert.py file if filenames are different. 
 - Run convert.py (python convert.py) and ✨Magic ✨
 
-
+####
 
 Field(s)  Meaning
     1     Date in the form "yyyymmdd"
