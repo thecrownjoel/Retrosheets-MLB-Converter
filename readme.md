@@ -13,9 +13,9 @@ Field(s)   | Meaning
 ---------- | -------
 1          | Date in the form "yyyymmdd"
 2          | Number of game:
- -           |   - "0" -- a single game
-  -          |   - "1" -- the first game of a double (or triple) header
-   -         |            including separate admission doubleheaders
+2           |   - "0" -- a single game
+2          |   - "1" -- the first game of a double (or triple) header
+2         |            including separate admission doubleheaders
             |   - "2" -- the second game of a double (or triple) header
             |            including separate admission doubleheaders
             |   - "3" -- the third game of a triple-header
