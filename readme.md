@@ -142,4 +142,4 @@ Field(s)   | Meaning
             |   - "P" -- we have some portion of the game. We may be missing
             |            innings at the beginning, middle, and end of the game.
  
-Missing fields will be NULL.
+
