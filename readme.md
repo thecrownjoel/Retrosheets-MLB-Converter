@@ -13,14 +13,14 @@ Field(s)   | Meaning
 ---------- | -------
 1          | Date in the form "yyyymmdd"
 2          | Number of game:
-_           |   - "0" -- a single game
-2          |   - "1" -- the first game of a double (or triple) header
-2         |            including separate admission doubleheaders
-            |   - "2" -- the second game of a double (or triple) header
-            |            including separate admission doubleheaders
-            |   - "3" -- the third game of a triple-header
-            |   - "A" -- the first game of a double-header involving 3 teams
-            |   - "B" -- the second game of a double-header involving 3 teams
+.           |   - "0" -- a single game
+.          |   - "1" -- the first game of a double (or triple) header
+.         |            including separate admission doubleheaders
+.            |   - "2" -- the second game of a double (or triple) header
+.            |            including separate admission doubleheaders
+.            |   - "3" -- the third game of a triple-header
+.            |   - "A" -- the first game of a double-header involving 3 teams
+.            |   - "B" -- the second game of a double-header involving 3 teams
 3          | Day of week ("Sun","Mon","Tue","Wed","Thu","Fri","Sat")
 4-5        | Visiting team and league
 6          | Visiting team game number
