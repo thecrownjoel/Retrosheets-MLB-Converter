@@ -7,13 +7,15 @@ This python file converts the .TXT file (ex: gl2022.txt) to the exact same name 
 - Setup your files so they match. You can edit in the convert.py file if filenames are different. 
 - Run convert.py (python convert.py) and ✨Magic ✨
 
+https://www.retrosheet.org/gamelogs/glfields.txt
+
 Field(s)   | Meaning
 ---------- | -------
 1          | Date in the form "yyyymmdd"
 2          | Number of game:
-            |   - "0" -- a single game
-            |   - "1" -- the first game of a double (or triple) header
-            |            including separate admission doubleheaders
+ -           |   - "0" -- a single game
+  -          |   - "1" -- the first game of a double (or triple) header
+   -         |            including separate admission doubleheaders
             |   - "2" -- the second game of a double (or triple) header
             |            including separate admission doubleheaders
             |   - "3" -- the third game of a triple-header
