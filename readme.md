@@ -9,9 +9,11 @@ This python file converts the .TXT file (ex: gl2022.txt) to the exact same name 
 
 Code Blocks (Preformatted text):
 
-    | First Header  | Second Header |
+    | Field(s)  | Meaning |
     | ------------- | ------------- |
-    | Content Cell  | Content Cell  |
+    | 1  | Date in the form "yyyymmdd"  |
+    | 2  | - "0" -- a single game - "1" -- the first game of a double (or triple) header
+                    including seperate admission doubleheaders  |
     | Content Cell  | Content Cell  |
 
 Field(s)  Meaning
