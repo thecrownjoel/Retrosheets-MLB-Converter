@@ -18,33 +18,33 @@ Field(s)   | Meaning
 .         |          ..  including separate admission doubleheaders
 .            |   .. "2" -- the second game of a double (or triple) header
 .            |     ..       including separate admission doubleheaders
-.            |    "3" -- the third game of a triple-header
-.            |    "A" -- the first game of a double-header involving 3 teams
-.            |    "B" -- the second game of a double-header involving 3 teams
+.            |    .. "3" -- the third game of a triple-header
+.            |    .. "A" -- the first game of a double-header involving 3 teams
+.            |    .. "B" -- the second game of a double-header involving 3 teams
 3          | Day of week ("Sun","Mon","Tue","Wed","Thu","Fri","Sat")
 4-5        | Visiting team and league
 6          | Visiting team game number
-            | For this and the home team game number, ties are counted as
-            | games and suspended games are counted from the starting
-            | rather than the ending date.
+.            | .. For this and the home team game number, ties are counted as
+.            | .. games and suspended games are counted from the starting
+.            | .. rather than the ending date.
 7-8        | Home team and league
 9          | Home team game number
 10-11      | Visiting and home team score (unquoted)
 12         | Length of game in outs (unquoted). A full 9-inning game would
-            | have a 54 in this field. If the home team won without batting
-            | in the bottom of the ninth, this field would contain a 51.
+.            | .. have a 54 in this field. If the home team won without batting
+.            | .. in the bottom of the ninth, this field would contain a 51.
 13         | Day/night indicator ("D" or "N")
 14         | Completion information. If the game was completed at a
-            | later date (either due to a suspension or an upheld protest)
-            | this field will include:
-            | "yyyymmdd,park,vs,hs,len" Where
-            | yyyymmdd -- the date the game was completed
-            | park -- the park ID where the game was completed
-            | vs -- the visitor score at the time of interruption
-            | hs -- the home score at the time of interruption
-            | len -- the length of the game in outs at time of interruption
-            | All the rest of the information in the record refers to the
-            | entire game.
+.            | .. later date (either due to a suspension or an upheld protest)
+.            | .. this field will include:
+.            | .. "yyyymmdd,park,vs,hs,len" Where
+.            | .. yyyymmdd -- the date the game was completed
+.            | .. park -- the park ID where the game was completed
+.            | .. vs -- the visitor score at the time of interruption
+.            | .. hs -- the home score at the time of interruption
+.            | .. len -- the length of the game in outs at time of interruption
+.            | .. All the rest of the information in the record refers to the
+.            | .. entire game.
 15         | Forfeit information:
             |   - "V" -- the game was forfeited to the visiting team
             |   - "H" -- the game was forfeited to the home team
