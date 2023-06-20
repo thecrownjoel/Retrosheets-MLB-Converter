@@ -124,16 +124,16 @@ Field(s)  Meaning
 133-159   Home starting players ID, name and defensive position
           listed in the order (1-9) they appeared in the batting order.
   160     Additional information.  This is a grab-bag of informational
-          items that might not warrant a field on their own.  The field 
+          items that might not warrant a field on their own.  The field
           is alpha-numeric. Some items are represented by tokens such as:
              "HTBF" -- home team batted first.
              Note: if "HTBF" is specified it would be possible to see
              something like "01002000x" in the visitor's line score.
-          Changes in umpire positions during a game will also appear in 
+          Changes in umpire positions during a game will also appear in
           this field.  These will be in the form:
              umpchange,inning,umpPosition,umpid with the latter three
              repeated for each umpire.
-          These changes occur with umpire injuries, late arrival of 
+          These changes occur with umpire injuries, late arrival of
           umpires or changes from completion of suspended games. Details
           of suspended games are in field 14.
   161     Acquisition information:
@@ -142,5 +142,6 @@ Field(s)  Meaning
              "D" -- the game was derived from box score and game story
              "P" -- we have some portion of the game.  We may be missing
                     innings at the beginning, middle and end of the game.
- 
+
 Missing fields will be NULL.
+s
